@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KarriereVejviser.dk</title>
+    <title>Om KarriereVejviser.dk</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;600&family=Inter:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/about-style.css" />
     <link rel="stylesheet" href="css/index-style.css" />
   </head>
 
@@ -30,7 +31,7 @@
     <nav class="navbar">
       <div class="nav-container">
         <ul class="nav-links">
-          <li><a href="#">Arbejdspladser</a></li>
+          <li><a href="index.html">Arbejdspladser</a></li>
           <li><a href="#">Karriereguides</a></li>
           <li><a href="#">Jobmuligheder</a></li>
           <li><a href="#" class="nav-highlight">Er du arbejdsgiver?</a></li>
@@ -38,120 +39,90 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-image-container">
-        <img
-          src="images/hero.png"
-          alt="To personer arbejder sammen foran en computer"
-          class="hero-img"
-        />
+    <!-- Hero -->
+    <section class="about-hero">
+      <div class="about-hero-container">
+        <div class="about-hero-content">
+          <h1 class="about-hero-title">Om KarriereVejviser.dk</h1>
+          <p class="about-hero-subtitle">
+            Vi hjælper studerende, nyuddannede <br />og akademikere med at
+            navigere i deres karriere.
+          </p>
+        </div>
       </div>
-      <div class="hero-content">
-        <h1 class="hero-title">KarriereVejviser.dk</h1>
-        <p class="hero-subtitle">
-          Inspiration, karriereguides og tips til dit arbejdsliv
+    </section>
+    <!-- About KarriereVejviser -->
+    <section class="about-what">
+      <div class="about-what-container">
+        <h2 class="about-what-title">Hvad er KarriereVejviser?</h2>
+        <p class="about-what-text">
+          KarriereVejviser er en online platform, der hjælper studerende,
+          nyuddannede og professionelle med at navigere i deres karriere. Her
+          finder du artikler, guides og inspiration om karrierevalg, jobsøgning,
+          jobinterviews, udvikling i arbejdslivet og meget mere.
         </p>
-        <div class="hero-buttons">
-          <a href="#" class="btn btn-primary">Læs karriereguides</a>
-          <a href="#" class="btn btn-secondary">Find job</a>
-        </div>
+        <p class="about-what-text">
+          Formålet er at gøre det lettere at forstå dine muligheder på
+          arbejdsmarkedet
+          <br />– uanset om du er i starten af din karriere eller overvejer dit
+          næste skridt.
+        </p>
       </div>
     </section>
 
-    <!-- Stats-grid Section -->
-    <section class="stats-section">
-      <div class="stats-container">
-        <!-- Row 1: White left, blue right -->
-        <div class="stats-row">
-          <div class="stats-card white-card">
-            <img
-              src="images/icon-arbejdspladser.png"
-              alt="Arbejdspladser ikon"
-              class="stats-icon"
-            />
-            <h3 class="stats-title">Arbejdspladser</h3>
-            <p class="stats-desc">
-              Gå på opdagelse i virksomheder, mød medarbejderne og få indblik i
-              deres kultur og værdier.
-            </p>
-          </div>
-          <div class="stats-card blue-card">
-            <div class="stats-number">2.000+</div>
-            <div class="stats-label">arbejdspladser</div>
-            <a href="#" class="stats-btn">Se virksomheder</a>
-          </div>
+    <!-- Video Section -->
+    <section class="about-video">
+      <div class="about-video-container">
+        <h2 class="about-video-title">Sådan hjælper KarriereVejviser dig</h2>
+        <div class="about-video-wrapper">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/pb2suA5D9vA"
+            title="KarriereVejviser.dk"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
+            allowfullscreen
+          ></iframe>
         </div>
-
-        <!-- Row 2: White left, blue right -->
-        <div class="stats-row">
-          <div class="stats-card blue-card">
-            <div class="stats-number">150+</div>
-            <div class="stats-label">artikler</div>
-            <a href="#" class="stats-btn">Se artikler</a>
-          </div>
-          <div class="stats-card white-card">
-            <img
-              src="images/icon-karriereguides.png"
-              alt="Karriereguides ikon"
-              class="stats-icon"
-            />
-            <h3 class="stats-title">Karriereguides</h3>
-            <p class="stats-desc">
-              Gå på opdagelse i artikler med råd og tips til dit karrierevalg og
-              din jobsøgning.
-            </p>
-          </div>
-        </div>
-
-        <!-- Row 3: White left, blue right -->
-        <div class="stats-row">
-          <div class="stats-card white-card">
-            <img
-              src="images/icon-jobmuligheder.png"
-              alt="Jobmuligheder ikon"
-              class="stats-icon"
-            />
-            <h3 class="stats-title">Jobmuligheder</h3>
-            <p class="stats-desc">
-              Se aktuelle jobopslag og udforsk karrieremuligheder i vores
-              jobportal.
-            </p>
-          </div>
-          <div class="stats-card blue-card">
-            <div class="stats-number">15.000+</div>
-            <div class="stats-label">jobmuligheder</div>
-            <a href="#" class="stats-btn">Se jobmuligheder</a>
-          </div>
-        </div>
+        <p class="about-video-text">
+          Se hvordan du kan bruge KarriereVejviser til at finde inspiration,
+          <br />
+          lære virksomheder at kende og udforske nye karrieremuligheder.
+        </p>
       </div>
     </section>
 
-    <!-- About KarriereVejviser.dk Section -->
-    <section class="about-section">
-      <div class="about-container">
-        <h2 class="about-title">Hvad er KarriereVejviser.dk?</h2>
+    <!-- "Viden og inspiration til din karriere" Section -->
+    <section class="about-inspiration">
+      <div class="about-inspiration-container">
+        <h2 class="about-inspiration-title">
+          Viden og inspiration til din karriere
+        </h2>
+        <p class="about-inspiration-subtitle">
+          På KarriereVejviser finder du artikler og guides, der gør komplekse
+          <br />
+          emner mere overskuelige. Det kunne for eksempel være:
+        </p>
 
-        <div class="about-steps">
-          <!-- Step 1 -->
-          <div class="about-step">
-            <div class="about-icon-wrap">
-              <img
-                src="images/inspiration-icon.png"
-                alt="Inspiration icon"
-                class="about-icon"
-              />
-            </div>
-            <h3 class="about-step-title">Få inspiration til din karriere</h3>
-            <p class="about-step-desc">
-              På KarriereVejviser finder du artikler og guides, der hjælper dig
-              med at tage næste skridt i din karriere – fra inspiration og
-              karrierevalg til konkrete jobmuligheder.
-            </p>
+        <div class="about-inspiration-grid">
+          <!-- Række 1 -->
+          <div class="about-inspiration-item">
+            <img
+              src="images/karrierevej-icon.png"
+              alt="Karrierevej"
+              class="about-inspiration-icon"
+            />
+            <p>Hvordan du vælger karrierevej</p>
           </div>
-
-          <!-- Arrow 1 -->
-          <div class="about-arrow">
+          <div class="about-inspiration-arrow">
             <svg
               width="32"
               height="32"
@@ -169,26 +140,15 @@
               />
             </svg>
           </div>
-
-          <!-- Step 2 -->
-          <div class="about-step">
-            <div class="about-icon-wrap">
-              <img
-                src="images/virksomhed-icon.png"
-                alt="Virksomheder icon"
-                class="about-icon"
-              />
-            </div>
-            <h3 class="about-step-title">Udforsk virksomheder</h3>
-            <p class="about-step-desc">
-              Få indblik i virksomheder, deres kultur og værdier. Læs om
-              arbejdspladserne, mød medarbejderne og bliv klogere på, hvordan
-              det er at arbejde i forskellige brancher og organisationer.
-            </p>
+          <div class="about-inspiration-item">
+            <img
+              src="images/ansøgning-icon.png"
+              alt="Ansøgning"
+              class="about-inspiration-icon"
+            />
+            <p>Hvordan du skriver en <br />god ansøgning</p>
           </div>
-
-          <!-- Arrow 2 -->
-          <div class="about-arrow">
+          <div class="about-inspiration-arrow">
             <svg
               width="32"
               height="32"
@@ -206,73 +166,171 @@
               />
             </svg>
           </div>
-
-          <!-- Step 3 -->
-          <div class="about-step">
-            <div class="about-icon-wrap">
-              <img
-                src="images/job-icon.png"
-                alt="Job icon"
-                class="about-icon"
-              />
-            </div>
-            <h3 class="about-step-title">Find din næste karrieremulighed</h3>
-            <p class="about-step-desc">
-              Find inspiration til dit næste karriereskridt gennem aktuelle
-              jobopslag. Her kan du udforske forskellige jobmuligheder og gå
-              videre til relevante stillinger i vores jobportaler.
+          <div class="about-inspiration-item">
+            <img
+              src="images/jobsamtale-icon.png"
+              alt="Jobsamtale"
+              class="about-inspiration-icon"
+            />
+            <p>
+              Hvad du kan forvente til <br />
+              en jobsamtale
             </p>
           </div>
         </div>
 
-        <div class="about-btn-wrap">
-          <a href="about.html" class="btn btn-about">Lær mere</a>
+        <!-- Række 2 - egen række centreret -->
+        <div class="about-inspiration-grid-row2">
+          <div class="about-inspiration-item">
+            <img
+              src="images/kontrakt-icon.png"
+              alt="Kontrakt"
+              class="about-inspiration-icon"
+            />
+            <p>
+              Hvordan du forhandler løn <br />
+              og kontrakt
+            </p>
+          </div>
+          <div class="about-inspiration-arrow">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="16" cy="16" r="15.5" stroke="#CCCCCC" />
+              <path
+                d="M13 10L19 16L13 22"
+                stroke="#555555"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="about-inspiration-item">
+            <img
+              src="images/udvikling-icon.png"
+              alt="Udvikling"
+              class="about-inspiration-icon"
+            />
+            <p>
+              Hvordan du udvikler din <br />
+              karriere over tid
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Karriereprofil Section -->
-    <section class="profile-section">
-      <div class="profile-container">
-        <h2 class="profile-title">Din karriereprofil</h2>
-        <div class="profile-body">
-          <div class="profile-content">
-            <p class="profile-intro">
-              Med en gratis profil kan du få mere ud af din
-              <br />
-              jobsøgning på tværs af vores jobportaler.
-            </p>
-            <ul class="profile-list">
-              <li class="profile-item">
-                <span class="profile-check">✓</span>
-                <div>
-                  <strong>Gem job</strong>
-                  <p>
-                    Gem interessante jobopslag og vend tilbage til dem senere.
-                  </p>
-                </div>
-              </li>
-              <li class="profile-item">
-                <span class="profile-check">✓</span>
-                <div>
-                  <strong>Følg virksomheder</strong>
-                  <p>Bliv opdateret når virksomheder slår nye stillinger op.</p>
-                </div>
-              </li>
-              <li class="profile-item">
-                <span class="profile-check">✓</span>
-                <div>
-                  <strong>Få relevante jobopslag</strong>
-                  <p>Se job der matcher dine interesser og kompetencer.</p>
-                </div>
-              </li>
-            </ul>
-            <a href="#" class="btn btn-profile">Tilmeld dig</a>
-          </div>
-          <div class="profile-image">
-            <img src="images/phone-mockup.png" alt="Karriereprofil app" />
+    <!-- Karrierenetværk Section -->
+    <section class="about-network">
+      <div class="about-network-container">
+        <h2 class="about-network-title">En del af et større karrierenetværk</h2>
+        <div class="about-network-logo">
+          <img
+            src="images/move-on-career-icon.png"
+            alt="Move On Career"
+            class="about-network-moc"
+          />
+        </div>
+        <p class="about-network-text">
+          KarriereVejviser er en del af Move On Career, som står
+          <br />bag nogle af Danmarks største job- og karriereportaler.
+        </p>
+
+        <hr class="about-network-divider" />
+
+        <div class="about-network-platforms">
+          <h3 class="about-network-platforms-title">Vores platforme</h3>
+          <div class="about-network-grid">
+            <div class="about-network-card">
+              <img
+                src="images/color-jb.png"
+                alt="Jobbank.dk"
+                class="about-network-icon"
+              />
+              <div>
+                <strong>Jobbank.dk</strong>
+                <p>Danmarks største jobportal for akademikere.</p>
+              </div>
+            </div>
+            <div class="about-network-card">
+              <img
+                src="images/color-so.png"
+                alt="Studerendeonline.dk"
+                class="about-network-icon"
+              />
+              <div>
+                <strong>Studerendeonline.dk</strong>
+                <p>Job- og karriereportal for studerende.</p>
+              </div>
+            </div>
+            <div class="about-network-card">
+              <img
+                src="images/color-praktik.png"
+                alt="Praktik.dk"
+                class="about-network-icon"
+              />
+              <div>
+                <strong>Praktik.dk</strong>
+                <p>Praktikpladser til universitetsstuderende.</p>
+              </div>
+            </div>
+            <div class="about-network-card">
+              <img
+                src="images/color-sosu.png"
+                alt="Sosu.nu"
+                class="about-network-icon"
+              />
+              <div>
+                <strong>Sosu.nu</strong>
+                <p>Job til SOSU-uddannede i hele landet.</p>
+              </div>
+            </div>
+            <div class="about-network-card">
+              <img
+                src="images/color-jm.png"
+                alt="Jobmesse.dk"
+                class="about-network-icon"
+              />
+              <div>
+                <strong>Jobmesse.dk</strong>
+                <p>Oversigt over messer og events.</p>
+              </div>
+            </div>
+            <div class="about-network-card">
+              <img
+                src="images/color-frivillig.png"
+                alt="Frivilligjob.dk"
+                class="about-network-icon"
+              />
+              <div>
+                <strong>Frivilligjob.dk</strong>
+                <p>Portal til frivilligt arbejde og nonprofit-stillinger.</p>
+              </div>
+            </div>
+            <div class="about-network-card about-network-card-center">
+              <img
+                src="images/color-ny.png"
+                alt="Nyuddannet.dk"
+                class="about-network-icon"
+              />
+              <div>
+                <strong>Nyuddannet.dk</strong>
+                <p>Jobportal for nyuddannede og alumner.</p>
+              </div>
+            </div>
           </div>
         </div>
+
+        <p class="about-network-footer-text">
+          Sammen udgør platformene et netværk, der hjælper studerende,
+          nyuddannede <br />og professionelle med at finde inspiration og
+          jobmuligheder.
+        </p>
       </div>
     </section>
 
@@ -557,5 +615,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/om-os.js"></script>
   </body>
 </html>
